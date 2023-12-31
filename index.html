@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+          body {
+            background-image: url(./Assets/background-image.png);
+            height: 100vh;
+            background-size: cover;
+            background-position: center;
+            margin: 0;
+        }
+
+
+        .top{
+            display: flex;
+            justify-content: space-around;
+            align-content: center;
+        }
+
+        .links a{
+            text-decoration:none;
+            color: black;
+            margin: 1rem;
+
+        }
+
+        .links{
+            margin-top: 1rem;
+        }
+
+
+        .iservice button{
+            background-color: rgb(237, 1, 127);
+            color: rgb(255, 255,255);
+            padding: 8px 15px;
+            border-style: none;
+            border-radius: 5px;
+            margin-left: 5px;
+        }
+        .iservice {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .content{
+            display: flex;
+            justify-content: space-around;
+
+        }
+
+
+        .cl{
+            position: absolute;
+            left:47%;
+            top:10%;
+           
+
+        }
+
+        .hl{
+            position: absolute;
+            top: 25%;
+            left: 80%;
+
+        }
+
+        .cl button {
+            background-color: rgb(255, 255, 255);
+            border-radius: 30px;
+            border-style: none;
+            color: black;
+            display: flex;
+            align-items: center; 
+            padding: 10px 20px;
+            box-shadow: 14px 14px 18px grey;
+           
+           
+
+
+        }
+
+        .hl button{
+            background-color: rgb(255, 255, 255);
+            border-radius: 30px;
+            border-style: none;
+            color: black;
+            display: flex;
+            align-items: center; 
+            padding: 10px 20px;
+            box-shadow: 14px 14px 18px grey;
+
+        }
+
+        .cl img, .hl img{
+            margin-right: 5px;
+        }
+
+        .h{
+            font-size: 35px;
+        }
+
+        .ao{
+            background-color: rgb(237, 1, 127);
+            color: rgb(255, 255,255);
+            padding: 10px 20px;
+            border-radius: 5px;
+            border-style: none;
+
+        }
+
+        .lc{
+            background-color: rgb(255,255,255);
+            color: rgb(237, 1, 127);
+            border-color: rgb(237, 1, 127);
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin-left: 10px;
+
+
+        }
+
+        .contact{
+            margin-top: 5rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 15rem;
+            
+        }
+
+        .left{
+            margin-left: 7rem;
+            margin-top: 2rem;
+        }
+
+        @media (max-width:800px) {
+
+            .links a{
+                display:none;
+            }
+            .content{
+                display: flex;
+                flex-direction:column;
+
+
+            }
+
+            .right{
+                order: -1;
+                
+
+            }
+        }
+       
+
+        
+
+       
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav class="top">
+
+            <div class="ipdc">
+                <img src="./Assets/website-logo.png" alt="">
+            </div>
+
+            <div class="links">
+                <a href="#">Retail</a>
+                <a href="#">SME</a>
+                <a href="#">CORPORATE</a>
+                <a href="#">ABOUT US</a>
+                <a href="#">COVID 19</a>
+                <a href="#">CAMPGAINS</a>
+            </div>
+
+            <div class="iservice">
+                <img class="search" src="./Assets/search-icon.png" alt="">
+                <button>iServices</button>
+            </div>
+
+        </nav>
+
+
+        <div class="content">
+            <div class="left">
+
+              <div class="h">  
+                <h1>Chase Your<br>Dream with us</h1>
+                <p>The harder you work for something, the greater <br> you'll feel when you achieve it.</p>
+              </div>
+
+              <div class="but">
+                <button class="ao" >APPLY ONLINE</button>
+                <button class="lc">LOAN CALCULATOR</button>
+              </div>
+
+              <div class="contact">
+                <img src="./Assets/phone.png" alt=""><p>1659|</p> 
+                <img src="./Assets/facebook.png" alt="">
+                <img src="./Assets/youtube.png" alt="">
+                <img src="./Assets/linkedin.png" alt="">
+                <img src="./Assets/instagram.png" alt="">
+              </div>
+
+            </div>
+            <div class="right">
+                <img src="./Assets/hero-image.png" alt="">
+            </div>
+        </div>
+
+
+    <div class="buttonclhl">
+        <div class="cl">
+            <button><img src="./Assets/car.png" alt="">Car Loan</button>
+        </div>
+
+        <div class="hl">
+            <button><img src="./Assets/House.png" alt="">Home Loan</button>
+    </div>
+
+    </div>
+    </div>
+</body>
+</html>
